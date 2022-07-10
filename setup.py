@@ -51,7 +51,6 @@ setup(
     url="https://github.com/JaeHyeon-Oh/django-restframework-jwt-only-use-username",
     license="MIT",
     description="A minimal JSON Web Token authentication plugin for Django REST Framework",
-    long_description=Path("README.rst").read_text(encoding="utf-8"),
     author="Jaehyeon Oh",
     author_email="dhwogus1212@naver.com",
     install_requires=[
