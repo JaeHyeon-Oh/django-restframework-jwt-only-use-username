@@ -46,10 +46,7 @@ extras_require["dev"] = (
 
 setup(
     name="django-restframework-jwt-only-use-username",
-    use_scm_version={"version_scheme": "post-release"},
-    setup_requires=["setuptools_scm"],
     url="https://github.com/JaeHyeon-Oh/django-restframework-jwt-only-use-username",
-    license="MIT",
     description="A minimal JSON Web Token authentication plugin for Django REST Framework",
     author="Jaehyeon Oh",
     author_email="dhwogus1212@naver.com",
