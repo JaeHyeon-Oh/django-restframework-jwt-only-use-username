@@ -45,15 +45,15 @@ extras_require["dev"] = (
 
 
 setup(
-    name="djangorestframework_simplejwt",
+    name="django-restframework-jwt-only-use-username",
     use_scm_version={"version_scheme": "post-release"},
     setup_requires=["setuptools_scm"],
-    url="https://github.com/jazzband/djangorestframework-simplejwt",
+    url="https://github.com/JaeHyeon-Oh/django-restframework-jwt-only-use-username",
     license="MIT",
     description="A minimal JSON Web Token authentication plugin for Django REST Framework",
     long_description=Path("README.rst").read_text(encoding="utf-8"),
-    author="David Sanders",
-    author_email="davesque@gmail.com",
+    author="Jaehyeon Oh",
+    author_email="dhwogus1212@naver.com",
     install_requires=[
         "django",
         "djangorestframework",
@@ -65,15 +65,11 @@ setup(
     include_package_data=True,
     zip_safe=False,
     classifiers=[
-        "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Framework :: Django",
         "Framework :: Django :: 2.2",
         "Framework :: Django :: 3.2",
         "Framework :: Django :: 4.0",
-        "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
-        "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
